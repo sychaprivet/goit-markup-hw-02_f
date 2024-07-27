@@ -77,11 +77,13 @@
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.section_button:hover .section_button:focus {
+.section_button:hover,
+.section_button:focus {
   background-color: #404bbf;
 }
 .desc_list {
   list-style-type: none;
+  background-color: #FFFFFF
 }
 .section_title {
   font-weight: 500;
@@ -89,6 +91,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #F4F4FD
   list-style-type: none;
 }
 .team_title {
@@ -98,6 +101,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize; 
 }
 .section_team {
   background-color: #ffffff;
