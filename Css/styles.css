@@ -62,11 +62,13 @@
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .section_main {
   background-color: #2e2f42;
 }
 .section_button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -75,7 +77,7 @@
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.section_button:hover {
+.section_button:hover .section_button:focus {
   background-color: #404bbf;
 }
 .desc_list {
